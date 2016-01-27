@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+       
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        
+        <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+                
+        <!-- Owl Carousel Assets -->
+        <link rel="stylesheet" href="{{ "/js/lib/owl.carousel.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/js/lib/owl.theme.css" | prepend: site.baseurl }}">
+               
+        
+        <script src="{{ "/js/vendor/modernizr-2.8.3.min.js" | prepend: site.baseurl }}"></script>
+        
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+        
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<header>
+<div id="container-nav">
+<section id="nav" class="wrapper">
+
+ <!-- Checkbox Hack markup -->
+<input type="checkbox" id="toggle" />
+
+<label for="toggle" onclick >Menu</label>
+<!-- /Checkbox Hack markup -->
+		<nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
+		<div class="cbp-hsinner"><!--menu-->
+		<ul class="cbp-hsmenu" role="navigation">
+			
+			<li><a href="{{ site.baseurl }}/">home</a></li>
+			
+			<li><a href="page-category-objet.html">object</a>
+				<ul class="cbp-hssubmenu cbp-hssub-rows">
+				{% for ob in site.object %}
+					 {% if ob.title %}
+				  <li><a href="{{ site.baseurl }}{{ ob.url }}"><img src="{{ site.baseurl }}{{ob.img}}" alt="{{ ob.title }}"/><span >{{ ob.title }}</span><span class="smaller">{{ ob.tag }}</span></a>
+				  </li>
+				  {% endif %}
+				{% endfor %}
+				
+				</ul>
+			</li>
+			
+			<li><a href="page-category-scenography.html">scenography</a>
+			<ul class="cbp-hssubmenu cbp-hssub-rows">
+				{% for scen in site.scenography %}
+					 {% if scen.title %}
+				  <li><a href="{{ site.baseurl }}{{ scen.url }}"><img src="{{ site.baseurl }}{{scen.img}}" alt="{{ scen.title }}"/><span >{{ scen.title }}</span></a>
+				  </li>
+				  {% endif %}
+				{% endfor %}
+				
+			</ul>
+			
+			</li>
+			<li><a href="{{ site.baseurl }}/exhibition">exhibition</a></li>
+			<li><a href="{{ site.baseurl }}/video">vidéo</a></li>
+			<li><a href="page-category-architecture.html">architecture</a>
+				<ul class="cbp-hssubmenu cbp-hssub-rows">
+					{% for arc in site.archi %}
+						 {% if arc.title %}
+					  <li><a href="{{ site.baseurl }}{{ arc.url }}"><img src="{{ site.baseurl }}{{arc.img}}" alt="{{ arc.title }}"/><span >{{ arc.title }}</span></a>
+					  </li>
+					  {% endif %}
+					{% endfor %}
+					
+				</ul>
+			</li>
+			<li><a href="{{ site.baseurl }}/eshop">e-shop</a></li>
+		</ul>
+		</div>
+		</nav>
+
+</section<!--endContnav-->
+</div><!--endContnav-->
+<h1 class="brand"><a href="{{ site.baseurl }}/about/">Name Company</a></h1>
+</header>

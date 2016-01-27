@@ -1,0 +1,24 @@
+# Site settings
+title: Name company
+email: your-email@domain.com
+description: "mon site name company"
+
+
+baseurl: /namecompany
+
+collections:
+    object:
+        output: true
+
+    archi:
+        output: true
+    
+    scenography:
+        output: true
+
+
+twitter_username: lvdesign
+github_username:  lvdesign
+
+# Build settings
+markdown: kramdown
