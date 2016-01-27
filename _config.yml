@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: "mon site name company"
 
 
-baseurl: /namecompany
+baseurl: /companyTest
 
 collections:
     object:
