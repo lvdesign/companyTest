@@ -23,7 +23,7 @@ github_username:  lvdesign
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 
 
