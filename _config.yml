@@ -1,6 +1,6 @@
 # Site settings
 title: Name company
-email: your-email@domain.com
+email: my-email@domain.com
 description: "mon site name company"
 
 
@@ -9,6 +9,7 @@ baseurl: /companyTest
 collections:
     object:
         output: true
+       
 
     archi:
         output: true
@@ -22,3 +23,20 @@ github_username:  lvdesign
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+
+
+
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  svg-icons,
+  svg-decorations,
+  scss,
+  .sass-cache,
+  package.json, 
+  Gruntfile.js, 
+  node_modules, 
+  readme.md
+]

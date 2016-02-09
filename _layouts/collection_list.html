@@ -1,0 +1,23 @@
+{% include header.html %}
+<div class="page clearfix">
+
+<div class="col3">
+{% for ob in site.object %}
+	 {% if ob.title %}
+  
+  
+  <figure class="">
+  <a href="{{ site.baseurl }}{{ ob.url }}">
+  <img src="{{ site.baseurl }}{{ob.img}}" alt="{{ ob.title }}" class="thumb"/>
+  <figcaption class="legImg">
+  <span >{{ ob.title }}</span>
+  <span class="smaller">{{ ob.tag }}</span></a>
+  </figcaption></figure>
+  
+  {% endif %}
+{% endfor %}
+
+</div>
+
+</div>
+{% include footer.html %}

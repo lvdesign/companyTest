@@ -47,8 +47,9 @@
 			
 			<li><a href="{{ site.baseurl }}/">home</a></li>
 			
-			<li><a href="page-category-objet.html">object</a>
+			<li><a href="#">object</a>
 				<ul class="cbp-hssubmenu cbp-hssub-rows">
+				<h3><a href="{{ site.baseurl }}/objectss/index.html">Tous les objets</a></h3>
 				{% for ob in site.object %}
 					 {% if ob.title %}
 				  <li><a href="{{ site.baseurl }}{{ ob.url }}"><img src="{{ site.baseurl }}{{ob.img}}" alt="{{ ob.title }}"/><span >{{ ob.title }}</span><span class="smaller">{{ ob.tag }}</span></a>
@@ -59,7 +60,7 @@
 				</ul>
 			</li>
 			
-			<li><a href="page-category-scenography.html">scenography</a>
+			<li><a href="#">scenography</a>
 			<ul class="cbp-hssubmenu cbp-hssub-rows">
 				{% for scen in site.scenography %}
 					 {% if scen.title %}

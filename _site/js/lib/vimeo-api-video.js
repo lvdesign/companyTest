@@ -18,7 +18,9 @@ var apiEndpoint = 'http://vimeo.com/api/v2/';
 
 			// Set the user's thumbnail and the page title
 			$('#stats').prepend('<img id="portrait" src="' + videos[0].user_portrait_medium + '" />');
-			$('#stats h2').text(videos[0].user_name + "'s Videos");
+			//$('#stats h2').text(videos[0].user_name + "'s Videos");
+			$('#stats h2').text("name-author's Videos");
+			
 
 			// Load the first video
 			getVideo(videos[0].url);
@@ -40,5 +42,7 @@ var apiEndpoint = 'http://vimeo.com/api/v2/';
 		}
 
 		function switchVideo(video) {
-			$('#embed').html(unescape(video.html));
+			//$('#embed').html(unescape(video.html));
+			$('.player').html(unescape(video.html));
+			
 		}
