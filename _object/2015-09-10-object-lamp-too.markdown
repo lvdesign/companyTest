@@ -4,13 +4,13 @@ title: "Welcome to object Lamp too!"
 date: 2015-08-13 15:55:12
 
 tag: Lampe
-img: /i/slide/82_ensemble-1normal.jpg
+img: /i/slide/99_cumulus-1.jpg
 
 
 ---
 
 
-![altTitle]({{ site.baseurl }}/i/slide/82_ensemble-1normal.jpg "Optional title")
+![altTitle]({{ site.baseurl }}/i/slide/99_cumulus-1.jpg "Optional title")
 
 ##Sume prehendam quamusciam
 Imaxime vel iduntia solut voluptae volorem aspienima plist, ommolorisque nonsequidit, 

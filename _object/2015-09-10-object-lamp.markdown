@@ -4,13 +4,13 @@ title: "Welcome to Lamp!"
 date: 2015-08-13 15:55:12
 
 tag: Lampe
-img: /i/slide/82_ensemble-1normal.jpg
+img: /i/slide/102_flamingo-1-bd.jpg
 
 
 ---
 
 
-![altTitle]({{ site.baseurl }}/i/slide/82_ensemble-1normal.jpg "Optional title")
+![altTitle]({{ site.baseurl }}/i/slide/102_flamingo-1-bd.jpg "Optional title")
 
 ##Sume prehendam quamusciam
 Imaxime vel iduntia solut voluptae volorem aspienima plist, ommolorisque nonsequidit, 

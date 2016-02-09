@@ -4,13 +4,13 @@ title: "Welcome to object Proto!"
 date: 2015-08-13 15:55:12
 
 tag: Proto
-img: /i/slide/82_ensemble-1normal.jpg
+img: /i/slide/93_accor-the-hague-41.jpg
 
 
 ---
 
 
-![altTitle]({{ site.baseurl }}/i/slide/82_ensemble-1normal.jpg "Optional title")
+![altTitle]({{ site.baseurl }}/i/slide/93_accor-the-hague-41.jpg "Optional title")
 
 ##Sume prehendam quamusciam
 Imaxime vel iduntia solut voluptae volorem aspienima plist, ommolorisque nonsequidit, 

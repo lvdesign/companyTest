@@ -1,12 +1,12 @@
 {% include header.html %}
 <div class="page clearfix">
 
-<div class="col3">
+<div class="doc-grid">
 {% for ob in site.object %}
 	 {% if ob.title %}
   
   
-  <figure class="">
+  <figure class="doc-cell">
   <a href="{{ site.baseurl }}{{ ob.url }}">
   <img src="{{ site.baseurl }}{{ob.img}}" alt="{{ ob.title }}" class="thumb"/>
   <figcaption class="legImg">

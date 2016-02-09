@@ -15,34 +15,31 @@ var apiEndpoint = 'http://vimeo.com/api/v2/';
 		}
 
 		function setupGallery(videos) {
-
-			// Set the user's thumbnail and the page title
-			$('#stats').prepend('<img id="portrait" src="' + videos[0].user_portrait_medium + '" />');
-			//$('#stats h2').text(videos[0].user_name + "'s Videos");
-			$('#stats h2').text("name-author's Videos");
-			
-
-			// Load the first video
-			getVideo(videos[0].url);
-
-			// Add the videos to the gallery
-			for (var i = 0; i < videos.length; i++) {
-				var html = '<figure class="mes-videos"><a href="' + videos[i].url + '"><img src="' + videos[i].thumbnail_medium + '" class="" />';
-				html += '<figcaption class="mes-legs">' + videos[i].title + '</figcaption></a></figure>';
-				$('#thumbs article').append(html);
-			}
-
-			// Switch to the video when a thumbnail is clicked
-			$('#thumbs a').click(function(event) {
-				event.preventDefault();
-				getVideo(this.href);
-				return false;
-			});
-
-		}
-
-		function switchVideo(video) {
-			//$('#embed').html(unescape(video.html));
-			$('.player').html(unescape(video.html));
-			
-		}
+		
+					// Set the user's thumbnail and the page title
+					$('#stats').prepend('<img id="portrait" src="' + videos[0].user_portrait_medium + '" />');
+					$('#stats h2').text(videos[0].user_name + "'s Videos");
+		
+					// Load the first video
+					getVideo(videos[0].url);
+		
+					// Add the videos to the gallery
+					for (var i = 0; i < videos.length; i++) {
+						var html = '<figure class="doc-cell-video"><a href="' + videos[i].url + '" ><img src="' + videos[i].thumbnail_medium + '" class="thumb-video" />';
+						html += '<figcaption>' + videos[i].title + '</figcaption></a></figure>';
+						$('.doc-grid-video').append(html);
+					}
+		
+					// Switch to the video when a thumbnail is clicked
+					$('.doc-cell-video a').click(function(event) {
+						event.preventDefault();
+						getVideo(this.href);
+						return false;
+					});
+		
+				}
+		
+				function switchVideo(video) {
+					$('.player').html(unescape(video.html));
+				}
+		

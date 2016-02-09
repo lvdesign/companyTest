@@ -9,10 +9,10 @@ img: /i/slide/82_ensemble-1normal.jpg
 
 ---
 
-
 ![altTitle]({{ site.baseurl }}/i/slide/82_ensemble-1normal.jpg "Optional title")
 
 ##Sume prehendam quamusciam
+
 Imaxime vel iduntia solut voluptae volorem aspienima plist, ommolorisque nonsequidit, 
 omnis sinciis de parum aliatqui beaquat lam id eliam quis quam sume prehendam quamusciam, 
 quiae cum quam qui omniet officatur magnihi lictas eum etur?
@@ -26,6 +26,7 @@ estrumquas dolo officto di reperiat.Haruntiur? Ma velitio.
 
 
 ##*Prehendam amounts quamusciam*
+
 *Imaxime or iduntia solution voluptae volorem aspienima plist, ommolorisque nonsequidit,
 sinciis all the little aliatqui beaquat now that Elias, who had quamusciam take hold,
 Because when the guards who omniet officatur magnihi lictas him?
