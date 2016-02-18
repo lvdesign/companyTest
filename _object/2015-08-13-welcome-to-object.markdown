@@ -11,7 +11,7 @@ img: /i/slide/82_ensemble-1normal.jpg
 
 ![altTitle]({{ site.baseurl }}/i/slide/82_ensemble-1normal.jpg "Optional title")
 
-##Sume prehendam quamusciam
+## Sume prehendam quamusciam
 
 Imaxime vel iduntia solut voluptae volorem aspienima plist, ommolorisque nonsequidit, 
 omnis sinciis de parum aliatqui beaquat lam id eliam quis quam sume prehendam quamusciam, 
@@ -25,7 +25,7 @@ estrumquas dolo officto di reperiat.Haruntiur? Ma velitio.
 2. Dolo officto di reperiat.[Haruntiur](http://coco.com/ "Title")
 
 
-##*Prehendam amounts quamusciam*
+## *Prehendam amounts quamusciam*
 
 *Imaxime or iduntia solution voluptae volorem aspienima plist, ommolorisque nonsequidit,
 sinciis all the little aliatqui beaquat now that Elias, who had quamusciam take hold,
